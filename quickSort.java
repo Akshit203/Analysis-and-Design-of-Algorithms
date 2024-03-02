@@ -1,3 +1,5 @@
+// Quick Sort Algorithm 
+
 import java.util.Scanner;
 
 public class quickSort {
@@ -45,7 +47,7 @@ public class quickSort {
         int temp = arr[i];
         arr[i] = arr[j];
         arr[j] = temp;
-        
+
     }
 
     public static void main(String args[]) {
